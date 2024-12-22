@@ -65,7 +65,7 @@ class _VerifyEmailScreenState extends State<VerifyEmailScreen> {
                         TextSpan(
                           text: 'example@gmail.com',
                           style: bodyLarge(context).copyWith(
-                            fontWeight: FontWeight.bold, // Bold for emphasis
+                            fontWeight: FontWeight.bold, 
                           ),
                         ),
                       ],

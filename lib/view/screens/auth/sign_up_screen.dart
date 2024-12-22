@@ -71,21 +71,16 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 prefixIcon: Icons.person,
                 hintText: "example@example.com",
                 labelText: "enter_name".tr,
-                // prefixIcon: Icons.mail,
                 controller: _emailController,
-                // validator: (value) => Validators.emailValidator(value),
               ),
               10.verticalSpace,
               CustomTextField(
                 prefixIcon: Icons.email,
                 hintText: "example@example.com",
                 labelText: "enter_email".tr,
-                // prefixIcon: Icons.mail,
                 controller: _emailController,
-                // validator: (value) => Validators.emailValidator(value),
               ),
               10.verticalSpace,
-              // Email TextField
 
               CustomTextField(
                 labelText: "enter_password".tr,
@@ -102,7 +97,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 ),
                 obscureText: !_isPasswordVisible,
                 controller: _passwordController,
-                // validator: (value) => Validators.passwordValidator(value),
               ),
               10.verticalSpace,
 

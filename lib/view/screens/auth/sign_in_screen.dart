@@ -43,7 +43,6 @@ class _SignInScreenState extends State<SignInScreen> {
           child: Form(
             key: _formKey,
             child: ListView(
-              // crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 25.hight,
                 Center(
@@ -61,7 +60,6 @@ class _SignInScreenState extends State<SignInScreen> {
                 ),
                 25.verticalSpace,
                 CustomTextField(
-                 
                   prefixIcon: Icons.email,
                   hintText: "example@example.com",
                   labelText: "enter_email".tr,
@@ -71,7 +69,6 @@ class _SignInScreenState extends State<SignInScreen> {
                 20.verticalSpace,
                 CustomTextField(
                   hintText: "Password",
-                 
                   prefixIcon: Icons.lock,
                   labelText: "enter_password".tr,
                   suffixIcon: IconButton(
@@ -86,7 +83,6 @@ class _SignInScreenState extends State<SignInScreen> {
                   ),
                   obscureText: !_isPasswordVisible,
                   controller: _passwordController,
-                  // validator: (value) => Validators.passwordValidator(value),
                 ),
                 5.verticalSpace,
                 Row(

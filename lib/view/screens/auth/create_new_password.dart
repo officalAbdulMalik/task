@@ -44,7 +44,6 @@ class _CreateNewPasswordState extends State<CreateNewPassword> {
             child: Form(
               key: _formKey,
               child: ListView(
-                // crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   10.verticalSpace,
                   Center(
@@ -96,9 +95,7 @@ class _CreateNewPasswordState extends State<CreateNewPassword> {
     if (isValid) {
       launchScreen(const SignInScreen(), pushAndRemove: true);
     } else {
-      setState(() {
-        // Triggers UI updates for validation errors
-      });
+      setState(() {});
     }
   }
 }

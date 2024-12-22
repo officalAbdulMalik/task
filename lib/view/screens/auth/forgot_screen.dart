@@ -43,7 +43,6 @@ class _ForgotPasswordState extends State<ForgotPassword> {
             child: Form(
               key: _formKey,
               child: ListView(
-                // crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   10.sp.horizontalSpace,
                   Center(
@@ -93,7 +92,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
       launchScreen(const VerifyEmailScreen());
     } else {
       setState(() {
-        // Triggers UI updates for validation errors
+        
       });
     }
   }

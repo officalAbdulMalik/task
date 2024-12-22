@@ -5,10 +5,11 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
-import '../../utils/app_constants.dart';
-import '../../view/base/common/snackbar.dart';
-import '../model/response/error.dart';
-import 'api_client_interface.dart';
+import 'package:startup_repo/data/api/api_client_interface.dart';
+import 'package:startup_repo/data/model/response/error.dart';
+import 'package:startup_repo/utils/app_constants.dart';
+import 'package:startup_repo/view/base/common/snackbar.dart';
+
 
 class ApiClient extends GetxService implements ApiClientInterface {
   final SharedPreferences sharedPreferences;
