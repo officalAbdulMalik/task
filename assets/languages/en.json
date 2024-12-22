@@ -1,0 +1,14 @@
+{
+   "language": "Language",
+    "theme": "Theme",
+    "system": "System",
+    "dark": "Dark",
+    "light": "Light",
+    "welcome_back":"Welcome Back!",
+    "enter_email":"Enter Your email",
+    "enter_password":"Enter Your Password",
+    "register":"Register",
+    "enter_name":"Enter your username",
+    "confirm_password":"Confirm Password"
+    
+}
